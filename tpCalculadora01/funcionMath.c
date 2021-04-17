@@ -19,7 +19,7 @@ float funcionSum (float a, float b){
 }
 
 float funcionRes (float a, float b){
-    int resultado;
+    float resultado;
 
     resultado = a - b;
 
