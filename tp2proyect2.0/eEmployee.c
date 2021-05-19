@@ -214,7 +214,7 @@ int sortEmployees(eEmployee emp[], int len, int order){
             for(firstCmp = 0; firstCmp < len - 1; firstCmp++){
 
                 for(nextCmp = firstCmp + 1; nextCmp < len; nextCmp++){
-                    if((strcmp(emp[firstCmp].lastName, emp[nextCmp].lastName) > 0 && emp[firstCmp].isEmpty == FALSE && emp[nextCmp].isEmpty == FALSE) || (strcmp(emp[firstCmp].lastName, emp[nextCmp].lastName) == 0 && emp[firstCmp].sector < emp[nextCmp].sector)){
+                    if((strcmp(emp[firstCmp].lastName, emp[nextCmp].lastName) > 0 && emp[firstCmp].isEmpty == FALSE && emp[nextCmp].isEmpty == FALSE) || (strcmp(emp[firstCmp].lastName, emp[nextCmp].lastName) == 0 && emp[firstCmp].sector > emp[nextCmp].sector)){
                         auxEmp = emp[firstCmp];
                         emp[firstCmp] = emp[nextCmp];
                         emp[nextCmp] = auxEmp;
