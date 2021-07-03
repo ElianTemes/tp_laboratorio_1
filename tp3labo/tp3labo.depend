@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1625198130 source:d:\workspace\tp3labo\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+
+1565993298 d:\workspace\tp3labo\linkedlist.h
+
+1625195060 d:\workspace\tp3labo\employee.h
+	"LinkedList.h"
+
+1625195075 source:d:\workspace\tp3labo\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"LinkedList.h"
+	"parser.h"
+
+1625197987 source:d:\workspace\tp3labo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1625150486 d:\workspace\tp3labo\controller.h
+
+1625152776 source:d:\workspace\tp3labo\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+
+1625133387 d:\workspace\tp3labo\parser.h
+
+1624330321 source:d:\workspace\tp3labo\asdasd.c
+
